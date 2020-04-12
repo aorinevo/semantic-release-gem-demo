@@ -9,6 +9,5 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 else
   sed -i semantic_release_gem_demo.gemspec -e "s/.*s.version.*/    s.version     = $(cat package.json | jq .version)/"
 fi
-sed -i "" "s/.*s.version.*/    s.version     = $(cat package.json | jq .version)/" semantic_release_gem_demo.gemspec
 gem build *.gemspec
-gem push --key rubygems_api_key *.gem
+gem push --key 'rubygems_api_key' *.gem
