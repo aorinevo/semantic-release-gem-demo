@@ -5,7 +5,7 @@ touch ~/.gem/credentials
 chmod 600 ~/.gem/credentials
 cat << EOF > ~/.gem/credentials
 ---
-:rubygems_api_key: ${RUBYGEMS_API_KEY}
+:rubygems_api_key: ${RUBYGEMS_API_TOKEN}
 EOF
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
