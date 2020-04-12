@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.0...v1.4.1) (2020-04-12)
+
+
+### Bug Fixes
+
+* ruby version in actions/setup-ruby. ([59638ef](https://github.com/aorinevo/semantic-release-gem-demo/commit/59638efd2c9f555b3844aaec81be751f9d4804a9))
+
 # [1.4.0](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.3.2...v1.4.0) (2020-04-12)
 
 
