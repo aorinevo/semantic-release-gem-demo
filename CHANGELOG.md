@@ -1,3 +1,10 @@
+## [1.4.2](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.1...v1.4.2) (2020-04-12)
+
+
+### Bug Fixes
+
+* add support for non-darwin OS types. ([1aaed5b](https://github.com/aorinevo/semantic-release-gem-demo/commit/1aaed5be02ddfa96a2f4c95ded451065f0df48b1))
+
 ## [1.4.1](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.0...v1.4.1) (2020-04-12)
 
 
