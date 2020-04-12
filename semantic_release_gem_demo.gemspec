@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name        = "semantic-release-gem-demo"
-    s.version     = "1.3.1"
+    s.version     = "1.4.2"
     s.date        = "2020-04-12"
     s.summary     = "Hello World!"
     s.description = "A test hello world gem"
