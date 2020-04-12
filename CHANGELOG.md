@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.0.0...v1.1.0) (2020-04-12)
+
+
+### Features
+
+* add npm publishing. ([3b5506f](https://github.com/aorinevo/semantic-release-gem-demo/commit/3b5506fef99bf1c075b7e0f750ef143c923eb80c))
+
 # 1.0.0 (2020-04-12)
 
 
