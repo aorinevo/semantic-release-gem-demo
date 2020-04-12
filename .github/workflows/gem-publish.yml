@@ -12,5 +12,5 @@ jobs:
     - name: Build and publish gem
       uses: jstastny/publish-gem-to-github@v1.1
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GH_TOKEN }}
         owner: aorinevo
