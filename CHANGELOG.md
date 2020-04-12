@@ -1,3 +1,10 @@
+## [1.4.5](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.4...v1.4.5) (2020-04-12)
+
+
+### Bug Fixes
+
+* use GH_TOKEN in push to RubyGems. ([2612907](https://github.com/aorinevo/semantic-release-gem-demo/commit/2612907793aa070c72092b1fee2c5b5c20e28e48))
+
 ## [1.4.4](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.3...v1.4.4) (2020-04-12)
 
 
