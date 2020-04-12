@@ -18,3 +18,4 @@ jobs:
         run: bash ./scripts/release-gem.sh
         env:
           RUBYGEMS_API_TOKEN: ${{ secrets.RUBYGEMS_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN}}

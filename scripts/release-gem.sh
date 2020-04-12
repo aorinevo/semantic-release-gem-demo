@@ -1,13 +1,20 @@
 #!/bin/bash
 
+echo "Setting up gem credentials..."
+set +x
 mkdir -p ~/.gem
-touch ~/.gem/credentials
-chmod 600 ~/.gem/credentials
-echo -e "---\r\n:rubygems_api_key: ${RUBYGEMS_API_KEY}" >> ~/.gem/credentials
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  sed -i "" -e "s/.*s.version.*/    s.version     = $(cat package.json | jq .version)/" semantic_release_gem_demo.gemspec
-else
-  sed -i semantic_release_gem_demo.gemspec -e "s/.*s.version.*/    s.version     = $(cat package.json | jq .version)/"
-fi
-gem build *.gemspec
-gem push --key 'rubygems' *.gem
+
+cat << EOF > ~/.gem/credentials
+---
+:github: Bearer ${GITHUB_TOKEN}
+:rubygems_api_key: ${RUBYGEMS_API_KEY}
+EOF
+
+chmod 0600 ~/.gem/credentials
+set -x
+
+echo "Installing dependencies..."
+bundle install > /dev/null 2>&1
+
+echo "Running gem release task..."
+rake release
