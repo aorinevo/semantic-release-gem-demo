@@ -12,3 +12,4 @@ This is a test gem for a POC involving release automation via a custom semantic-
 - https://github.com/semantic-release/semantic-release
 - https://github.com/semantic-release/npm
 - https://github.com/marketplace/actions/release-gem-to-github-packages
+- https://github.com/semantic-release/git
