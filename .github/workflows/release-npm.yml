@@ -1,11 +1,11 @@
-name: Release
+name: Release NPM
 on:
   push:
     branches:
       - master
 jobs:
   release:
-    name: Release
+    name: Release NPM
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
