@@ -48,7 +48,7 @@ const releaseConfig = {
         [
             '@semantic-release/npm',
             {
-                npmPublish: false
+                npmPublish: true
             }
         ],
         [
