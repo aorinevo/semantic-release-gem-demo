@@ -1,3 +1,11 @@
+## [1.4.3](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.2...v1.4.3) (2020-04-12)
+
+
+### Bug Fixes
+
+* order of arguments in sed command ([880b27e](https://github.com/aorinevo/semantic-release-gem-demo/commit/880b27e58ae627f4528ef7fc0e7d0825deda6a2f))
+* order of arguments in sed command ([3d9f6e4](https://github.com/aorinevo/semantic-release-gem-demo/commit/3d9f6e4ee31d1d6a356419837f83ca2ee23f0f7e))
+
 ## [1.4.2](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.1...v1.4.2) (2020-04-12)
 
 
