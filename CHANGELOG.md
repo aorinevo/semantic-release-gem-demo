@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.2.0...v1.3.0) (2020-04-12)
+
+
+### Bug Fixes
+
+* add NPM_TOKEN to env. ([0d72412](https://github.com/aorinevo/semantic-release-gem-demo/commit/0d7241288b4f3d2b087737b112d4f55e28f67f4e))
+
+
+### Features
+
+* enable npm publish. ([e29a166](https://github.com/aorinevo/semantic-release-gem-demo/commit/e29a166c5b6b69e5c6d733ff02832e902a0437c1))
+
 # [1.2.0](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.1.1...v1.2.0) (2020-04-12)
 
 
