@@ -1,3 +1,11 @@
+## [1.4.6](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.5...v1.4.6) (2020-04-12)
+
+
+### Bug Fixes
+
+* test without --key flag. ([9d67a0c](https://github.com/aorinevo/semantic-release-gem-demo/commit/9d67a0c5c9f916bac585c3597524d7abc93565a5))
+* typo in token name ([37a7795](https://github.com/aorinevo/semantic-release-gem-demo/commit/37a7795fa7452fe368442e354d6b0c28961da0d2))
+
 ## [1.4.5](https://github.com/aorinevo/semantic-release-gem-demo/compare/v1.4.4...v1.4.5) (2020-04-12)
 
 
